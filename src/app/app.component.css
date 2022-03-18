@@ -65,7 +65,7 @@
 .listado::-webkit-scrollbar{    
     
     width: 50px;
-    background-image: url(assets/linea.png);    
+    background-image: url(../assets/linea.png);    
     background-position: center;
     background-repeat: repeat-y;
     background-size: 336px;
@@ -74,7 +74,7 @@
 
 .listado::-webkit-scrollbar-thumb{
 
-    background-image: url(assets/pokeball.png);    
+    background-image: url(../assets/pokeball.png);    
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50px;    
@@ -84,7 +84,7 @@
 
 .listado::-webkit-scrollbar-button:increment:end{
 
-    background-image: url(assets/flechaAbajo.png);    
+    background-image: url(../assets/flechaAbajo.png);    
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50px;    
@@ -93,7 +93,7 @@
 
 .listado::-webkit-scrollbar-button:decrement:start{
 
-    background-image: url(assets/flechaArriba.png);
+    background-image: url(../assets/flechaArriba.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50px;    
