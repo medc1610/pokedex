@@ -1,0 +1,16 @@
+.contenedor{
+
+    display: grid;    
+    border-bottom: 3px solid black;
+    margin: 0px;
+    background: linear-gradient( rgb(0, 89, 255) 45% ,rgb(2, 5, 58) 45%, rgb(39, 27, 214) 50%);
+    justify-content: center;
+    height: 50px;
+    font-family: monospace;
+    color: aliceblue;
+    font-size: 30px;
+    place-items: center;
+    
+}
+
+

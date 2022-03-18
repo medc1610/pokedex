@@ -1,0 +1,39 @@
+        <form class="input-group mb-3"
+              (ngSubmit)="buscarPokemon()"
+              (keydown.enter)="setPokemon(search)">
+          
+              <input  type="text"                      
+                      class="form-control"
+                      name="search"                      
+                      [(ngModel)]="search"
+                      placeholder="Buscar pokemon"                                            
+                      *ngIf="hayError === false">
+
+               <input type="text"                      
+                      class="form-control"
+                      id="formulario2"
+                      name="search"                      
+                      [(ngModel)]="search"
+                      placeholder="Buscar pokemon valido"
+                      (keydown.enter)="setPokemon(search)"                      
+                      *ngIf="hayError === true">
+
+              <button class="btn btn-primary" 
+                      type="button"                     
+                      (click)="buscarPokemon()"
+                      (click)="setPokemon(search)"            
+                      routerLink="/pokedex/{{search}}">
+                      Buscar
+              </button>
+
+          </form>
+
+          
+      
+          
+      
+        
+
+
+    
+          

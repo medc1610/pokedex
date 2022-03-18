@@ -1,0 +1,37 @@
+
+
+
+<div class="grid-container">
+    <div class="grid1">
+      
+       <p>
+            {{pokemonNombre | titlecase}} 
+       </p>                 
+               
+    </div>
+
+    <div class="grid2">
+
+        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/{{pokemonId | number: '3.0-3'}}.png">
+
+    </div>
+
+    <div class="grid3" *ngIf="pokemonTipo2">
+       
+        <p>
+            {{pokemonTipo1 | titlecase}} &nbsp;  -  &nbsp; {{pokemonTipo2 | titlecase}} 
+        </p>                     
+        
+    </div>
+
+    <div class="grid3-3" *ngIf="!pokemonTipo2">
+
+        <p>
+            {{pokemonTipo1 | titlecase}}
+        </p>        
+
+    </div>
+   
+        
+    
+</div>

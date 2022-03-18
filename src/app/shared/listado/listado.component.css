@@ -1,0 +1,31 @@
+.contenedor{
+    display: grid;
+    justify-content: center;
+}
+
+
+.active{    
+    
+    border-radius: 10px;
+    color: black;
+}
+
+img{
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+
+}
+
+.list-group-item{
+
+    
+    width: 250px; 
+    border-radius: 10px;
+    border: 1px solid lightslategray;
+    font-family:monospace;
+      
+    
+    
+}
+

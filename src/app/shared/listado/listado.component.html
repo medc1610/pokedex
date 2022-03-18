@@ -1,0 +1,39 @@
+    <!-- <ul>
+        <li *ngFor="let poke of pokemonArr"
+            routerLink="/pokedex/{{poke.name}}">
+            {{poke.id}} {{poke.name}}
+        </li>
+    </ul>  -->
+<div class="contenedor">
+    <div *ngFor="let poke of pokemonArr"
+    class="list-group-item" 
+    routerLinkActive="active"
+    routerLink="/pokedex/{{poke.name}}">    
+         
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/512px-Pok%C3%A9_Ball_icon.svg.png"> {{poke.id}} {{poke.name | titlecase}}   
+     
+</div>
+</div>    
+
+
+
+
+<!-- <table class="table table-hover table-borderless">
+    
+    <tbody>
+        <tr *ngFor="let poke of pokemonArr"            
+            routerLink="/pokedex/{{poke.name}}">
+
+            <td>a {{poke.id}}  {{poke.name}}</td>            
+             
+
+        </tr>       
+    </tbody>
+    
+</table> -->
+
+
+
+
+
+

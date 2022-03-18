@@ -1,0 +1,15 @@
+input{
+    border: 1px solid black;
+    font-family: monospace;
+}
+
+button{
+    border: 1px solid black;
+}
+
+#formulario2::placeholder{
+    color: red;
+}
+
+
+
